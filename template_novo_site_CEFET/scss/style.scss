@@ -1,0 +1,10 @@
+@import "../node_modules/@govbr-ds/core/src/core.scss";
+@import "./commonElements/colors.scss";
+@import "./pages/home.scss";
+
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

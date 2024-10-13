@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "novo site CEFET",
+  "version": "1.0",
+  "description": "This file contains details of the assets used by novo site CEFET.",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "template.novo_site_CEFET.mainstyles",
+      "description": "The default css style to use.",
+      "type": "style",
+      "uri": "style.min.css",
+      "dependencies": ["fontawesome"]
+    },
+    {
+      "name": "template.novo_site_CEFET.scripts",
+      "description": "The file containing the javascript for this template.",
+      "type": "script",
+      "uri": "index.js",
+      "attributes": {
+        "defer": true
+      },
+      "dependencies": ["core"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@govbr-ds/core": "^3.6.0"
+  },
+  "devDependencies": {
+    "purgecss": "^6.0.0"
+  },
+  "name": "template_novo_site_cefet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/style.scss:css/style.min.css --style compressed",
+    "build": "zip -r template_novo_site_cefet.zip . && mv template_novo_site_cefet.zip ../../template_novo_site_cefet.zip"
+  },
+  "keywords": [],
+  "author": "Victor Freitas Matos",
+  "license": "GPL-3.0-only",
+  "description": "Um projeto de site desenvolvido para a instituição CEFET com o intuito de ser responsivo, acessível e elegante."
+}

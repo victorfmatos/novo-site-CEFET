@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site" method="upgrade">
+    <name>template novo site CEFET</name>
+    <version>1.0</version>
+    <creationDate>Oct 2024</creationDate>
+    <author>Victor Freitas Matos</author>
+    <authorEmail>vfreitasmatos@gmail.com</authorEmail>
+    <description>Um projeto de um novo olhar para o CEFET</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>joomla.asset.json</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <media destination="templates/site/novo_site_CEFET" folder="media">
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+        <folder>scss</folder>
+    </media>
+    <positions>
+        <position>menu-links</position>
+    </positions>
+</extension>
